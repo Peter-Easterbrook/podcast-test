@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo v2
+      - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: Peter-Easterbrook/podcast-generator@main
+        uses: planetoftheweb/podcast-generator@main
 
